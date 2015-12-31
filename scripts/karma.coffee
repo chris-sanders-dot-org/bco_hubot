@@ -132,7 +132,7 @@ module.exports = (robot) ->
   robot.hear regex, (msg) ->
     #msg.send "#{msg.message.user.name.toLowerCase()}, you have been fined one credit for a violation of the verbal morality statute"
     #karma.decrement msg.message.user.name.toLowerCase()
-    msg.send "#{msg.message.user.name.toLowerCase()}, Chris lived up to his promise to get rid of the morality stuff.  Send him karma!"
+    #msg.send "#{msg.message.user.name.toLowerCase()}, Chris lived up to his promise to get rid of the morality stuff.  Send him karma!"
 
   robot.hear /(\S+[^+:\s])[: ]*\+\+(\s|$)/, (msg) ->
     subject = msg.match[1].toLowerCase()
