@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "author": "lummoxx@gmail.com",
-  "description": "Y'all racists!",
+  "description": "Bco Bot",
   "dependencies": {
     "hubot": "^2.17.0",
     "hubot-diagnostics": "0.0.1",
