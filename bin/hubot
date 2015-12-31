@@ -5,6 +5,10 @@ set -e
 # Set hubot env vars here, as they are stripped out by init.d if placed in the init.d script.
 #export HUBOT_GOOGLE_API_KEY=""
 #export HUBOT_GIPHY_API_KEY=""
+export HUBOT_IRC_SERVER="irc.gamesurge.net"
+export HUBOT_IRC_ROOMS="#blackcompany"
+export HUBOT_IRC_NICK="Nagra"
+export HUBOT_IRC_UNFLOOD="true"
 
 # We must change directory so Nagra knows where he is when he starts, otherwise he gets confused.
 cd /home/nagra/nagra
