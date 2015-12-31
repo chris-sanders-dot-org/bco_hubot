@@ -2,6 +2,16 @@
 
 set -e
 
+# Set hubot env vars here, as they are stripped out by init.d if placed in the init.d script.
+#export HUBOT_GOOGLE_API_KEY=""
+#export HUBOT_GIPHY_API_KEY=""
+
+# We must change directory so Nagra knows where he is when he starts, otherwise he gets confused.
+cd /home/nagra/nagra
+
+# Get any updates from the master branch of Nagra from Github before starting.
+git pull origin
+
 npm install
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
 

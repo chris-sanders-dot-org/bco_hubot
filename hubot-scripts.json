@@ -1,1 +1,4 @@
-[]
+[
+  "reload.coffee",
+  "update.coffee"
+]
